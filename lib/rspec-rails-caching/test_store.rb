@@ -26,6 +26,8 @@ module RSpecRailsCaching
       @cached.clear
       @expired.clear
       @expiration_patterns.clear
+      @cached_pages.clear
+      @expired_pages.clear
     end
 
     def read_entry(name, options = {})
